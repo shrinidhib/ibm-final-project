@@ -18,8 +18,8 @@ class CarModel(models.Model):
     car_make = models.ForeignKey(CarMake, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
     CAR_TYPES = [
-        ('SEDAN', 'Sedan'), 
-        ('SUV', 'SUV'), 
+        ('SEDAN', 'Sedan'),
+        ('SUV', 'SUV'),
         ('WAGON', 'Wagon')
     ]
     type = models.CharField(max_length=100, choices=CAR_TYPES, default='SUV')
@@ -31,4 +31,3 @@ class CarModel(models.Model):
 
     def __str__(self):
         return self.name
-    
