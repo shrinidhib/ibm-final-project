@@ -31,6 +31,7 @@ const Dealers = () => {
       method: "GET"
     });
     const retobj = await res.json();
+    console.log(retobj)
     if(retobj.status === 200) {
       let all_dealers = Array.from(retobj.dealers)
       let states = [];
