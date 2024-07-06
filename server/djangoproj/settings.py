@@ -29,8 +29,8 @@ SECRET_KEY =\
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost',
-            '''https://bshrinidhi12-8000.theianext-0-
-            labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai''']
+                '''https://bshrinidhi12-8000.theianext-0-
+                labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai''']
 CSRF_TRUSTED_ORIGINS = ['''https://bshrinidhi12-8000.theianext-0-labs-
         prod-misc-tools-us-east-0.proxy.cognitiveclass.ai''']
 # ALLOWED_HOSTS=['*']
